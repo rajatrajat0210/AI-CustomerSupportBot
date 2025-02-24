@@ -59,9 +59,9 @@ ASTRA_DB_APPLICATION_TOKEN=<your_application_token>
 GROQ_API_KEY=<your_groq_api_key>
 
 ▶️ Run the Bot
-
+```bash
 streamlit run app.py
-
+```
 🎯 Usage
 
 Open the Streamlit UI in your browser.
