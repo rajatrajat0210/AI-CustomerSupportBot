@@ -1,7 +1,17 @@
 🤖 AI Customer Support Bot
+
 ![image alt](https://github.com/rajatrajat0210/AI-CustomerSupportBot/blob/main/AI-Chatbot-Frontend.jpg?raw=true)
+
+✨ AGENTS IN LANGFLOW MODEL
+
 ![image alt](https://github.com/rajatrajat0210/AI-CustomerSupportBot/blob/main/agents_langflow.jpg?raw=true)
+
+✨ FULL FLOW MODEL FOR LANGFLOW 
+
 ![image alt](https://github.com/rajatrajat0210/AI-CustomerSupportBot/blob/main/langflow.jpg?raw=true)
+
+✨ PDF TO VECTOR DATA FOR EASY SEARCH
+
 ![image alt](https://github.com/rajatrajat0210/AI-CustomerSupportBot/blob/main/pdftovector.jpg?raw=true)
 
    
