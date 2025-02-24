@@ -22,11 +22,14 @@ Welcome to the AI Customer Support Bot! This AI-powered chatbot is designed to e
 
 ✨ Features
 
-✅ AI-driven responses powered by Groq APIs✅ Interactive Streamlit UI for a seamless user experience✅ Langflow-powered agent-based system for efficient query handling✅ Main Manager Agent that routes queries to:
-
-📌 FAQ Agent (answers business & product-related questions)
-
-📦 Order Lookup Agent (retrieves order details from Astra DB)
+✅ AI-driven responses powered by Groq APIs - (llama 3-70b versatile)
+✅ Interactive Streamlit UI for a seamless user experience (Custom and easy to build Front-end)
+✅ Langflow-powered agent-based system for efficient query handling (Low Code Based Tool for implementing AI and DB flows to build Agents)
+✅ Main Manager Agent that routes queries to:
+     📌 FAQ Agent (answers business & product-related questions)
+     📦 Order Lookup Agent (retrieves order details from Astra DB)
+     📦 Product Lookup Agent (retrives product details from Astra DB)
+     
 ✅ Astra DB integration for storing & retrieving orders, products, and FAQs✅ PDF parsing support to extract and utilize business data efficiently
 
 🏗️ Architecture
@@ -35,7 +38,10 @@ graph TD;
   User -->|Queries| Streamlit UI -->|Routes to| Main_Manager_Agent;
   Main_Manager_Agent -->|Handles FAQs| FAQ_Agent;
   Main_Manager_Agent -->|Looks up orders| Order_Lookup_Agent;
+  Main_Manager_Agent -->|Looks up products| Product_Lookup_Agent;
   Order_Lookup_Agent -->|Fetches Data| Astra_DB;
+  Product_Lookup_Agent -->|Fetches Data| Astra_DB;
+
 
 🔧 Installation
 
