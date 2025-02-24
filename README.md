@@ -45,9 +45,9 @@ git clone https://github.com/your-username/ai-support-bot.git
 cd ai-support-bot
 
 📦 Install Dependencies
-
+```bash
 pip install -r requirements.txt
-
+```
 🛠️ Set Up Environment Variables
 
 Create a .env file and add your credentials:
